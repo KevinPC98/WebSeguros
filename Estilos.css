@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+body{
+	margin: 20px 0px;
+	background-color: rgb(255,255,255);
+}
+
+form label {
+	margin: 0px 14px;
+	color: rgb(0,0,0);
+	font-family: 'Arial';
+}
+
+form div textarea {
+	resize: none;
+}
+
+.AcercaDe label {
+	margin: 0px 22px;
+	color: rgb(255,255,255);
+	font-family: 'Arial';
+	font-size: '1';	
+}
+
+.AcercaDe label ul {
+	margin: 0px 14px;
+	color: blue;	
+}
+
+#error {
+	color: rgb(248,38,0);
+}
+
+.arbol {
+	color: rgb(255,255,255);
+}
+
+.navegacion{
+	bottom:0px;
+	width:100%;
+	margin: /*3*/-20px auto;
+	background-color: rgb(0,0,255);
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu{
+	margin: 0px 150px;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	text-align: center;
+	display: block;
+	padding: 15px 20px;
+	color: rgb(255,255,255);
+	font-family: 'Arial';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background-color: rgb(20,13,162);
+	color: rgb(255,255,25);
+	transition: all .3s;
+}
+
+.submenu{
+	visibility: hidden;
+	position: absolute;
+	width: 120%;
+	background-color: rgb(0,0,255);
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu > li > a{
+	display: block;
+	padding: 15px;
+	color: rgb(255,255,255);
+	font-family: 'Comic Sans MS';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.imagen{
+	margin:0px auto;
+	width: 1200px;
+	height: 464px;
+	display:block;
+}
+
+.pie{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: rgb(0,0,255);
+}
+
+.pie label{
+	margin: 0px 14px;
+	color: rgb(255,255,255);
+	font-family: 'Arial';	
+}
+
+.cuerpo {
+	margin: 30px 147px;
+}
+
+.tablaPrincipal {
+	width: 100%;
+	text-align: center;
+}
+
+
+.tablaPrincipal tbody tr td {
+	border-style: solid;
+	border-collapse: separate;
+	border-color: rgb(195,195,195);
+	background-color: rgb(214,214,214);
+	padding: 30px;
+}
+
+.tablaPrincipal tbody tr td img {
+	width: 200px; height: 200px;
+	/*border-style: solid;
+	border-color: rgb(0,0,0);*/
+}
+
+.tablaPrincipal tbody tr td label {
+	margin: 60px 0px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.tablaRegistro {
+	width: 100%;
+}
+
+.tablaRegistro tbody tr td {
+	padding: 10px;
+}
+
+.panelLogin {
+	width: 100%;
+	height: 57px;
+	background-color: rgb(22,157,248);
+	font-size: 15px;
+	font-family: Arial;
+}
+
+#acceder {
+	border-style: none;
+	background-color: rgb(0,0,255);
+	color: rgb(255,255,255); 
+	padding: 10px;
+}
